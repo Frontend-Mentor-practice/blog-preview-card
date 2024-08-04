@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&family=Outfit&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Blog preview card</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Frontend Mentor | Blog preview card</h1>
+    <a href="https://www.frontendmentor.io/profile/dominguez-daniel">@dominguez-daniel</a>
+  </header>
+
+  <!-- /***************/ -->
+
+  <article class="flex-column [ card ]">
+    <figure>
+      <img
+        src="./assets/images/illustration-article.svg"
+        alt=""
+        loading="lazy"
+        class="[ card__img ]"
+      >
+    </figure>
+
+    <section role="main" class="flex-column [ card__content ]">
+      <div class="[ blog-tag ]"><p class="fw-800 clr-txt-primary ">Learning</p></div>
+      <string class="clr-txt-primary"><time datetime="2023-12-21">Published 21 Dec 2023</time></p>
+      <h2 class="fw-800">HTML & CSS foundations</h2>
+      <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    </section>
+
+    <footer class="flex-row items-center fw-800 [ card__author ]">
+      <img
+        src="/assets/images/image-avatar.webp"
+        alt="Greg Hooper"
+      >
+      <address class="normal">Greg Hooper</address>
+    </footer>
+  </article>
+
+</body>
+
+</html>
