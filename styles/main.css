@@ -72,15 +72,6 @@ p {
 
 /*************************************/
 
-body > header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #FFFF;
-  width: 100%;
-  padding: 1rem;
-}
-
 .card {
   background-color: var(--clr-white);
   gap: 1.5rem;

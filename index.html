@@ -15,14 +15,8 @@
 </head>
 
 <body>
-  <header class="header">
-    <h1>Frontend Mentor | Blog preview card</h1>
-    <a href="https://www.frontendmentor.io/profile/dominguez-daniel">@dominguez-daniel</a>
-  </header>
 
-  <!-- /***************/ -->
-
-  <article class="flex-column [ card ]">
+  <article role="main" class="flex-column [ card ]">
     <figure>
       <img
         src="./assets/images/illustration-article.svg"
@@ -32,14 +26,14 @@
       >
     </figure>
 
-    <section role="main" class="flex-column [ card__content ]">
+    <header role="banner" class="flex-column [ card__content ]">
       <div class="[ blog-tag ]"><p class="fw-800 clr-txt-primary ">Learning</p></div>
       <p class="clr-txt-primary"><time datetime="2023-12-21">Published 21 Dec 2023</time></p>
       <h2 class="fw-800">HTML & CSS foundations</h2>
       <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
-    </section>
+    </header>
 
-    <footer class="flex-row items-center fw-800 [ card__author ]">
+    <footer role="contentinfo" class="flex-row items-center fw-800 [ card__author ]">
       <img
         src="./assets/images/image-avatar.webp"
         alt="Greg Hooper"
